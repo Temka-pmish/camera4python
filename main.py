@@ -17,7 +17,7 @@ class VideoRecorder:
 
         self.root = tk.Tk()
         self.root.title(window_title)
-        self.root.geometry("300x300")
+        self.root.geometry("300x250")
 
         self.start_stop_button = tk.Button(self.root, text="Pause/Resume", command=self.toggle_pause)
         self.start_stop_button.pack(pady=20)
